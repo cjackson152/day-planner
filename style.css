@@ -1,0 +1,60 @@
+html, body, #pad {
+	font-family: 'Open sans', sans-serif;
+	margin:10px;
+	font-size:12px;
+}
+
+h1 {
+  color:rgb(255, 242, 62);
+  font-weight: bolder;
+}
+
+h2{ 
+  color: lightskyblue;
+  font-weight: bolder;
+}
+
+
+#pad {
+	font-weight:400;
+	border:0;
+	font-size:12px;
+	height:450px;
+	outline:none;
+}
+#schedule {
+  background-color:slategray;
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+}
+
+body {
+  background-color: slategrey;
+}
+
+#pad {
+  background-color: slategrey;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 50%;
+  color:  white;
+}
+
+#schedule li { 
+	font-weight:300;
+	list-style-type: none;
+	padding:0;
+  margin: 0;
+}
+#schedule li:nth-child(even) {color: lightskyblue}
+#schedule li:nth-child(odd) {color: rgb(255, 242, 62)}
+
+
+#schedule, #pad, #schedule ul{
+	display:inline-block;
+	vertical-align:top;
+	padding:0;
+	margin:0;
+}
